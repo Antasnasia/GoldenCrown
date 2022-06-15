@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GoldenCrown - Питомник английских кокер спаниелей
+    <title>GoldenCrown - Питомник английских кокер-спаниелей
     </title>
     <link rel="preload" href="fonts/Roboto.woff2" as="font" type="font/woff2" crossorigin="anonymous">
   <link rel="preload" href="fonts/Robotobold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
@@ -18,39 +18,84 @@
     <header class="header">
         <div class="header__container container">
           <div class="header__wrapper">
-            <a href="#" class="logo header__logo" aria-label="Логотип питомника GoldenCrown">
-              <img  width="55" height="25" src="/img/header_logo.svg" alt="Логотип">
+            <a href="#" class="header__logo" aria-label="Логотип питомника GoldenCrown">
+             <img class="logo" src="/img/header_logo1.svg" alt="GoldenCrown logo" width="55" height="25">
+             
             </a>
             <ul class="social header__social">
               <li class="social__item">
                 <a href="#" class="social__link">
                   <span class="visually-hidden">ВКонтакте</span>
-                  <img  width="13" height="8" src="/img/icon-vk.svg"
+                  <img  width="13" height="8" src="/img/icon-vk_white.svg"
                     >
                 </a>
               </li>
               <li class="social__item">
                 <a href="#" class="social__link">
                   <span class="visually-hidden">Твиттер</span>
-                  <img width="16" height="11" src="/img/icon-tw.svg">
+                  <img width="16" height="11" src="/img/icon-tw_white.svg">
                 </a>
               </li>
               <li class="social__item">
                 <a href="#" class="social__link">
                   <span class="visually-hidden">Фейсбук</span>
-                  <img  width="6" height="12" src="/img/icon-fb.svg">
+                  <img  width="6" height="12" src="/img/icon-fb_white.svg">
                 </a>
               </li>
             </ul>
             <div class="header__content">
               <p class="header__city"></p>
               <h1 class="header__title">GoldenCrown</h1>
-              <p class="header__lead">Первый питомник английских кокер спаниелей с расширенным спектром услуг</p>
+              <p class="header__lead">Первый питомник английских <br>кокер-спаниелей с расширенным спектром услуг</p>
               <a href="#" class="header__btn">Смотреть собак</a>
             </div>
           </div>
         </div>
       </header>
-      
+      <main>
+        <section class="section pets">
+            <div class="section__wrapper pets__wrapper container">
+              <h2 class="section__title pets__title">Питомцы</h2>
+              <p class="section__lead pets__lead">Все представители нашего питомника имеют ветеринарный паспорт с отметками о прививках и документ с родословной</p>
+              <ul class="pets__list">
+                <li class="pets__item pets__item">
+                  <a class="pets__tab pets__tab--active" href="#pets-tab-content-1">Кобели</a>
+                </li>
+                <li class="pets__item">
+                  <a class="pets__tab" href="#pets-tab-content-2">Суки</a>
+                </li>
+                <li class="pets__item">
+                  <a class="pets__tab" href="#pets-tab-content-3">Щенки </a>
+                </li>
+              </ul>
+              <div class="pets__tab-content-wrapper">
+                <div class="pets__tab-content show slider" id="pets-tab-content-1">
+                  <div class="pets__slider slider__list slider__container">
+                    <div class="gallery slider__wrapper">
+                      <div class="gallery__item gallery__item--top slider__slide">
+                        <img class="gallery__item-img gallery__item-img--top" src="/img/gallery_img1.jpg" width="518" height="382" alt="Мейн Кун">
+                      </div>
+                      <div class="gallery__item gallery__item--bottom slider__slide">
+                        <img class="gallery__item-img gallery__item-img--bottom" src="/img/gallery_img2.jpg" width="518" height="241" alt="Мейн Кун">
+                      </div>
+                      <div class="gallery__item gallery__item--large slider__slide slider__slide--active">
+                        <img class="gallery__item-img gallery__item-img--large" src="/img/gallery_img3.jpg" width="471" height="485" alt="Мейн Кун">
+                      </div>
+                    </div>
+                  </div>
+                  <button class="slider__button slider__button--prev" type="button">
+                    <span class="visually-hidden">Предыдущий слайд</span>
+                  </button>
+                  <button class="slider__button slider__button--next" type="button">
+                    <span class="visually-hidden">Следующий слайд</span>
+                  </button>
+                  <div class="pets__btn-wraper">
+                    <a href="#" class="pets__btn">Смотреть больше</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+      </main>
 </body>
 </html>
