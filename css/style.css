@@ -1,0 +1,282 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Robotolight.woff2"), url("../fonts/Robotolight.woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto.woff2"), url("../fonts/Roboto.woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Robotomedium.woff2"), url("../fonts/Robotomedium.woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Robotobold.woff2"), url("../fonts/Robotobold.woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Yeseva One";
+    src: url("../fonts/yesevaone.woff2"), url("../fonts/yesevaone.woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    min-width: 320px;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 11px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #151313;
+    background-color: #ffffff;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .visually-hidden:not(:focus):not(:active) {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    white-space: nowrap;
+    border: 0;
+    clip-path: inset(100%);
+  }
+  
+  .container {
+    position: relative;
+    max-width: 1286px;
+    margin: 0 auto;
+    padding: 0 40px;
+  }
+  
+  .section__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .section__title {
+    margin: 0;
+    font-family: "Yeseva One", "Georgia", serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #661313;
+    text-align: center;
+  }
+  
+  .section__lead {
+    margin: 0;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #705639;
+  }
+  
+  .social {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+  
+  .social a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+ 
+/* header styles */
+.header {
+    position: relative;
+    background-color: #185c0b;
+  }
+  
+  .header__container {
+    position: relative;
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 80px;
+    background-image: url("../img/main_img.png");
+    background-repeat: no-repeat;
+    background-size: 684px auto;
+    background-position: right 0 bottom 0;
+  }
+  
+  .header__wrapper {
+    margin: 0 auto;
+    width: auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-top: 47px;
+    padding-bottom: 64px;
+    overflow: hidden;
+    z-index: 2;
+  }
+  
+  .header__logo {
+    display: block;
+    width: 100%;
+    margin-bottom: 78px;
+    text-align: center;
+  }
+  
+  
+  .header__content {
+    width: auto;
+  }
+  
+  .header__city {
+    font-family: "Roboto", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    color: #eba04c;
+    max-width: 330px;
+    margin-top: 30px;
+    margin-bottom: 17px;
+  }
+  
+  .header__title {
+    margin: 0;
+    margin-bottom: 16px;
+    font-family: "Yeseva One", "Georgia", serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 60px;
+    color: #ffffff;
+    max-width: 350px;
+    transform: translateX(-3px);
+  }
+  
+  .header__lead {
+    margin: 0;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    color: #eba04c;
+    max-width: 330px;
+    margin-bottom: 48px;
+  }
+  
+  .header__btn {
+    text-align: center;
+    width: 200px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+    color: #ffffff;
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid #eba04c;
+    background-color: transparent;
+    text-decoration: none;
+    padding: 18px;
+    transition: color 0.3s ease-out, border 0.3s ease-out;
+    margin-bottom: 110px;
+  }
+  
+  .header__btn:hover,
+  .header__btn:focus {
+    color: #eba04c;
+    border: 1px solid #ffffff;
+  }
+  
+  .header__btn:active {
+    opacity: 0.5;
+  }
+  
+  .header__social {
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-right: 113px;
+    margin-top: auto;
+  }
+  
+  .header__social li {
+    margin-bottom: 14px;
+  }
+  
+  .header__social li:last-of-type {
+    margin-bottom: 0;
+  }
+  
+  .header__social a {
+    width: 12px;
+    height: 11px;
+  }
+ 
+  
+  .header__social::before {
+    content: "";
+    position: absolute;
+    bottom: 127px;
+    left: 6px;
+    height: 77px;
+    width: 2px;
+    background-color: rgba(255, 255, 255, 0.61);
+    margin-bottom: 29px;
+    align-self: center;
+  }
