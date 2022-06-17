@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Roboto";
-    src: url("../fonts/Robotolight.woff2"), url("../fonts/Robotolight.woff");
+    src: url("fonts/Robotolight.woff2"), url("fonts/Robotolight.woff");
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -8,7 +8,7 @@
   
   @font-face {
     font-family: "Roboto";
-    src: url("../fonts/Roboto.woff2"), url("../fonts/Roboto.woff");
+    src: url("fonts/Roboto.woff2"), url("fonts/Roboto.woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -16,7 +16,7 @@
   
   @font-face {
     font-family: "Roboto";
-    src: url("../fonts/Robotomedium.woff2"), url("../fonts/Robotomedium.woff");
+    src: url("fonts/Robotomedium.woff2"), url("fonts/Robotomedium.woff");
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -24,7 +24,7 @@
   
   @font-face {
     font-family: "Roboto";
-    src: url("../fonts/Robotobold.woff2"), url("../fonts/Robotobold.woff");
+    src: url("fonts/Robotobold.woff2"), url("fonts/Robotobold.woff");
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -32,7 +32,7 @@
   
   @font-face {
     font-family: "Yeseva One";
-    src: url("../fonts/yesevaone.woff2"), url("../fonts/yesevaone.woff");
+    src: url("fonts/yesevaone.woff2"), url("fonts/yesevaone.woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -148,7 +148,7 @@
     max-width: 1366px;
     margin: 0 auto;
     padding: 0 80px;
-    background-image: url("../img/main_img.png");
+    background-image: url("img/main_img.png");
     background-repeat: no-repeat;
     background-size: 560px auto;
     background-position: right 0 bottom 0;
@@ -348,12 +348,12 @@
   
   .slider__button--prev {
     left: 0;
-    background-image: url("/img/arrowPrev.svg");
+    background-image: url("img/arrowPrev.svg");
   }
   
   .slider__button--next {
     right: 0;
-    background-image: url("/img/arrowNext.svg");
+    background-image: url("img/arrowNext.svg");
   }
 
   /* pets section */
@@ -554,8 +554,7 @@
     margin: 0 auto;
     position: relative;
     z-index: 1;
-    /* transform: translateX(53px);
-    transform: translateY(50px); */
+   
     background-color: #185c0b;
   }
   
@@ -756,7 +755,7 @@
   /* care section */
   .care {
     background-color: #185c0b;
-    background-image: url("/img/care_background3.jpg");
+    background-image: url("img/care_background3.jpg");
     background-position: 50% 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -845,7 +844,7 @@
     height: 100%;
     background-color: #eba04c;
     border-left: 1px solid #eba04c;
-    background-image: url("/img/arrowDetails.svg");
+    background-image: url("img/arrowDetails.svg");
     background-repeat: no-repeat;
     background-position: center;
     transition: background-color 0.3s ease-out;
@@ -917,12 +916,12 @@
   
   .team__slider button:first-of-type {
     top: 51%;
-    background-image: url("/img/arrowPrev.svg");
+    background-image: url("img/arrowPrev.svg");
   }
   
   .team__slider button:last-of-type {
     top: 51%;
-    background-image: url("/img/arrowNext.svg");
+    background-image: url("img/arrowNext.svg");
   }
   
   .team__title {
@@ -1109,7 +1108,7 @@
     right: 0;
     width: 13.3%;
     height: 100%;
-    background-image: url("/img/plus.svg");
+    background-image: url("img/plus.svg");
     background-repeat: no-repeat;
     background-position: center;
     border-left: 1px solid #eba04c;
@@ -1168,7 +1167,7 @@
     right: 0;
     width: 13.3%;
     height: 100%;
-    background-image: url("/img/activeQuestion-original.svg");
+    background-image: url("img/activeQuestion-original.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-color: #eba04c;
