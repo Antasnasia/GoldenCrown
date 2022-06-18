@@ -530,6 +530,7 @@
     right: 0;
     background-image: url("../img/arrowNext.svg");
   }
+  
   @media (max-width: 767px) {
     .slider__button--prev {
       left: 0;
@@ -539,6 +540,7 @@
       right: 0;
     }
   }
+  
   /* pets section */
   .pets {
     background-color: #185c0b;
